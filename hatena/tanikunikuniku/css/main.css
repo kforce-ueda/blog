@@ -2,6 +2,22 @@ body {
   /*background-color:red;*/
 }
 
+.entry .date {
+/*
+    font-weight: 700;
+    position: absolute;
+    top: -40px;
+    left: -1.5em;
+    width: 100px;
+    height: 100px;
+*/
+    background: transparent url(https://kforce-ueda.github.io/blog/hatena/tanikunikuniku/image/main/date-bg.png) no-repeat;
+    background-size: 100px 100px;
+/*
+    margin-bottom: 0;
+*/
+}
+
 #box2:after {
 /*
     content: " ";
