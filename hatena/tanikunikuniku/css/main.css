@@ -1,3 +1,17 @@
 body {
   /*background-color:red;*/
 }
+
+#box2:after {
+/*
+    content: " ";
+    display: block;
+    position: absolute;
+    top: -40px;
+    right: 0;
+    width: 100px;
+    height: 100px;
+*/
+    background: url(https://kforce-ueda.github.io/blog/hatena/tanikunikuniku/image/main/sidebar.png) no-repeat;
+    background-size: 100px 100px;
+}
