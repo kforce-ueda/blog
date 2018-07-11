@@ -2,6 +2,25 @@ body {
   /*background-color:red;*/
 }
 
+#content {
+    width: 1040px;
+/*
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+*/
+}
+
+#main {
+    width: 700px;
+/*
+    width: 600px;
+    float: left;
+    margin-bottom: 3em;
+*/
+}
+
 .entry .date {
 /*
     font-weight: 700;
