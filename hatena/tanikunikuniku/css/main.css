@@ -2,6 +2,31 @@ body {
   /*background-color:red;*/
 }
 
+#blog-title {
+    padding: 0;
+    background: #fffbf3;
+/*
+    padding: 2em 0;
+    background: #fffbf3 url(https://cdn.blog.st-hatena.com/css/theme/sushiyuki/images/lane.gif?version=1c3afeb…&env=production) repeat-x 0 100%;
+    margin-bottom: 2em;
+    border-top: 10px solid #b88f65;
+    border-bottom: 10px solid #b88f65;
+*/
+}
+
+#blog-title-inner {
+    width: 1090px;
+    margin-bottom: 0;
+/*
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    padding: 3em 0;
+    text-align: center;
+*/
+}
+
 #top-box {
     width: 1090px;
 /*
@@ -111,7 +136,7 @@ body {
 	*/
 	}
 	
-	.mobile{
+	.adsbygoogle.mobile{
 	    display: none !important;
 	}
 }
