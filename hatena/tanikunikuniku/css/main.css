@@ -88,7 +88,8 @@ body {
 }
 
 /* 記事下 ダブルレクタングル */
-.table-css, .td-css {
+#my-footer .table-css,
+#my-footer .td-css {
     border-style:none;
     margin:0 auto;
     padding: 0;
