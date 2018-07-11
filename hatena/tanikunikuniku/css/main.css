@@ -76,3 +76,9 @@ body {
     background: url(https://kforce-ueda.github.io/blog/hatena/tanikunikuniku/image/main/sidebar-header2.png) no-repeat 0;
     background-size: 30px 30px;
 }
+
+/* 記事下 ダブルレクタングル */
+.table-css, .td-css {
+    border-style:none;
+    margin:0 auto;
+}
