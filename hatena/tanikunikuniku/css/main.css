@@ -93,3 +93,24 @@ body {
     margin:0 auto;
     padding: 0;
 }
+
+
+@media (max-width: 767px) {
+	#blog-title-inner, #bottom-editarea, #content, #top-box, #top-editarea {
+	    width: 93.75%;
+	/*
+	    word-wrap: break-word;
+	*/
+	}
+
+	#box2, #main {
+	    width: 100%;
+	/*
+	    float: none;
+	*/
+	}
+	
+	.mobile{
+	    display: none !important;
+	}
+}
