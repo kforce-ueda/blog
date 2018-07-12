@@ -1,0 +1,142 @@
+body {
+  /*background-color:red;*/
+}
+
+#blog-title {
+    padding: 0;
+    background: #fffbf3;
+/*
+    padding: 2em 0;
+    background: #fffbf3 url(https://cdn.blog.st-hatena.com/css/theme/sushiyuki/images/lane.gif?version=1c3afeb…&env=production) repeat-x 0 100%;
+    margin-bottom: 2em;
+    border-top: 10px solid #b88f65;
+    border-bottom: 10px solid #b88f65;
+*/
+}
+
+#blog-title-inner {
+    width: 1090px;
+    margin-bottom: 0;
+/*
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    padding: 3em 0;
+    text-align: center;
+*/
+}
+
+#top-box {
+    width: 1090px;
+/*
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+*/
+}
+
+#content {
+    width: 1090px;
+/*
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+*/
+}
+
+#main {
+    width: 700px;
+/*
+    width: 600px;
+    float: left;
+    margin-bottom: 3em;
+*/
+}
+
+#box2 {
+    width: 350px;
+/*
+    width: 300px;
+    float: right;
+*/
+}
+
+.entry .date {
+/*
+    font-weight: 700;
+    position: absolute;
+    top: -40px;
+    left: -1.5em;
+    width: 100px;
+    height: 100px;
+*/
+    background: transparent url(https://kforce-ueda.github.io/blog/tanikunikuniku/image/main/date-bg.png) no-repeat;
+    background-size: 100px 100px;
+/*
+    margin-bottom: 0;
+*/
+}
+
+#box2:after {
+/*
+    content: " ";
+    display: block;
+    position: absolute;
+    top: -40px;
+    right: 0;
+    width: 100px;
+    height: 100px;
+*/
+    background: url(https://kforce-ueda.github.io/blog/tanikunikuniku/image/main/sidebar.png) no-repeat;
+    background-size: 100px 100px;
+}
+
+.hatena-module-title {
+/*
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 120%;
+    min-height: 30px;
+    padding-left: 35px;
+    line-height: 30px;
+*/
+    background: url(https://kforce-ueda.github.io/blog/tanikunikuniku/image/main/sidebar-header1.png) no-repeat 0;
+    background-size: 30px 30px;
+}
+
+.hatena-module:nth-child(2n) .hatena-module-title {
+    background: url(https://kforce-ueda.github.io/blog/tanikunikuniku/image/main/sidebar-header2.png) no-repeat 0;
+    background-size: 30px 30px;
+}
+
+/* 記事下 ダブルレクタングル */
+#my-footer .table-css,
+#my-footer .td-css {
+    border-style:none;
+    margin:0 auto;
+    padding: 0;
+}
+
+
+@media (max-width: 767px) {
+	#blog-title-inner, #bottom-editarea, #content, #top-box, #top-editarea {
+	    width: 93.75%;
+	/*
+	    word-wrap: break-word;
+	*/
+	}
+
+	#box2, #main {
+	    width: 100%;
+	/*
+	    float: none;
+	*/
+	}
+	
+	.adsbygoogle.mobile{
+	    display: none !important;
+	}
+}
