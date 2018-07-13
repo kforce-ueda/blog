@@ -37,3 +37,10 @@ body {
 .hatena-module-title {
     border-bottom: 5px solid hsla(285, 50%, 90%, 1);
 }
+
+
+@media screen and (max-width: 640px) {
+	.archive-entries .entry-title {
+	    border-bottom: none;
+	}
+}
