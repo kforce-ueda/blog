@@ -29,3 +29,11 @@ body {
     float: right;
 */
 }
+
+.entry-title {
+    border-bottom: 5px solid hsla(285, 50%, 90%, 1);
+}
+
+.hatena-module-title {
+    border-bottom: 5px solid hsla(285, 50%, 90%, 1);
+}
