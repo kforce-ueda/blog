@@ -1,3 +1,18 @@
-.col_unit_group {
-    background: #ff0000;
+input#in_value {
+    padding: 0px 10px;
+}
+select#in_unit {
+    height: 33px;
+}
+hr {
+    margin: 20px 0px;
+}
+table.cnv_result {
+}
+table.cnv_result th,
+table.cnv_result td {
+    padding: 0px 5px;
+}
+table.cnv_result td.col_value {
+    text-align: right;
 }
