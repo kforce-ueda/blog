@@ -42,6 +42,20 @@ body {
 }
 
 
+/* 記事下広告 ダブルレクタングル */
+#footer-ad .double_rect,
+#footer-ad .double_rect .td-css {
+    border-style:none;
+    margin:0 auto;
+    padding: 0;
+}
+
+@media screen and (max-width: 767px) {
+	.adsbygoogle.mobile{
+	    display: none !important;
+	}
+}
+
 @media screen and (max-width: 640px) {
 	.archive-entries .entry-title {
 	    border-bottom: none;
