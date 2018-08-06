@@ -133,7 +133,7 @@ var BASE_2_UNIT = {
 			return BASE_2_UNIT.s.se(v).div(10);
 		},
 		chou: function(v) {
-			return BASE_2_UNIT.s.tan(v).div(10;
+			return BASE_2_UNIT.s.tan(v).div(10);
 		},
 	},
 };
