@@ -127,7 +127,7 @@ var BASE_2_UNIT = {
 			return v;
 		},
 		se: function(v) {
-			return BASE_2_UNIT.s.tsubo(v).div(10);
+			return BASE_2_UNIT.s.tsubo(v).div(30);
 		},
 		tan: function(v) {
 			return BASE_2_UNIT.s.se(v).div(10);
